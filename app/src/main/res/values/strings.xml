@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">QuotManager</string>
+
+
+    <string-array name="SelectOption">
+        <item>Select Option</item>\
+        <item>Converted</item>
+        <item>Booking</item>
+        <item>NotIntrested</item>
+        <item>NextFolloup</item>
+    </string-array>
+
+
+    <string-array name="SelectOption1">
+        <item>Select Option</item>\
+        <item>Converted</item>
+        <item>Booking</item>
+        <item>NotIntrested</item>
+    </string-array>
+
+
+    <string-array name="SelectOption2">
+        <item>Select Option</item>\
+        <item>Converted</item>
+    </string-array>
+
+
+    <string-array name="SelectOption3">
+        <item>Select Option</item>\
+        <item>Converted</item>
+        <item>Booking</item>
+        <item>NextFolloup</item>
+    </string-array>
+
+
+    <string-array name="Reasons">
+        <item>Select Reason</item>
+        <item>Not In Budget</item>\
+        <item>Found Better Deal For Other Vehicle</item>
+        <item>Choose Other Vehicle</item>
+        <item>Not Satisfied With Average</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="Sirname">
+        <item>Select Pronounced</item>
+        <item>Mr.</item>
+        <item>Mrs.</item>
+        <item>Ms.</item>
+    </string-array>
+
+    <string-array name="cashfinance">
+        <item>Select Payment Option</item>
+        <item>Cash</item>
+        <item>Finance</item>
+    </string-array>
+
+    <string-array name="modelspinner">
+        <item>Select Model</item>
+        <item>Activa</item>
+        <item>GRAZIA</item>
+        <item>DIO</item>
+        <item>AVIATOR</item>
+        <item>CLIQ</item>
+        <item>NAVI</item>
+        <item>CD DREAM</item>
+        <item>DREAM NEO</item>
+        <item>DREAM YUGA</item>
+        <item>LIVO</item>
+        <item>CB SHINE</item>
+        <item>CB UNICORN</item>
+        <item>CB HORNET</item>
+        <item>X - BLADE</item>
+        <item>CBR</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
+

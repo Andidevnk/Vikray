@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.quotation.nk.quotmanager">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MainController"
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Welcome_Activity" />
+        <activity android:name=".Quotation_Form" />
+        <activity android:name=".Reports_View" />
+        <activity
+            android:name=".Quotation_Status"
+            android:label="Update Status"
+            android:theme="@style/AppTheme1" />
+        <activity android:name=".Enquiry_Quot" />
+        <activity android:name=".StockActivity" />
+        <activity android:name=".Gatepass_Genrate_Activity" />
+        <activity
+            android:name=".GatePass_Activity"
+            android:label="GatePass Status"
+            android:theme="@style/AppTheme2" />
+        <activity android:name=".Sending_Gatepass_Activity" />
+        <activity android:name=".Received_Gatepass_Activity" />
+        <activity android:name=".Vehicle_Locate_Activity" />
+        <activity
+            android:name=".Model_Stock_Deatails"
+            android:label="Model List"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".FullDetails_Models"
+            android:label="Model Details"
+            android:theme="@style/AppTheme1" />
+        <activity android:name=".Update_Status" />
+        <activity android:name=".Compelete_Status" />
+        <activity
+            android:name=".NextFollowup_Status"
+            android:label="Update Status"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Booking_Status"
+            android:label="Update Status"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".NotIntrested_Status"
+            android:label="Update Status"
+            android:theme="@style/AppTheme1" />
+        <activity android:name=".Converted_Status"
+            android:label="Update Status"
+            android:theme="@style/AppTheme1"></activity>
+    </application>
+
+</manifest>

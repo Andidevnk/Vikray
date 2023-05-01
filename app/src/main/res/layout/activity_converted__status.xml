@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Converted_Status">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/txtcolors"
+                android:fontFamily="monospace"
+                android:text="Customer Name "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#ffffff" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textColor="@color/textcolor"
+                android:fontFamily="monospace"
+                android:textSize="15sp"
+                android:id="@+id/name"
+                android:text="Customer name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textColor="@color/txtcolors"
+                android:fontFamily="monospace"
+                android:text="Vehicle Model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#ffffff" />
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textColor="@color/textcolor"
+                android:fontFamily="monospace"
+                android:textSize="15sp"
+                android:id="@+id/model"
+                android:text="Model Enquiry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textColor="@color/txtcolors"
+                android:fontFamily="monospace"
+                android:text="Mobile "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#ffffff" />
+            <TextView
+                android:autoLink="phone"
+                android:clickable="true"
+                android:textColorLink="@color/colorPrimary"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/textcolor"
+                android:fontFamily="monospace"
+                android:textSize="15sp"
+                android:id="@+id/phone_number"
+                android:text="Phone Number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textColor="@color/txtcolors"
+                android:fontFamily="monospace"
+                android:text="Email "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#ffffff" />
+            <TextView
+                android:clickable="true"
+                android:autoLink="email"
+                android:textColorLink="@color/colorPrimary"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/textcolor"
+                android:fontFamily="monospace"
+                android:textSize="15sp"
+                android:id="@+id/e_address"
+                android:text="Email Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="This Vehicle Is Sold!!"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.quotation.nk.quotmanager.Quotation_Form">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/quoatationback"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:src="@drawable/profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="Quotation Form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:textColor="@color/textcolor"
+                            android:textSize="15sp"
+                            android:text="Select Model"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <Spinner
+                            android:popupBackground="@color/cardview_dark_background"
+                            android:id="@+id/model_spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </Spinner>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_marginTop="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:singleLine="true"
+                                android:id="@+id/customername"
+                                android:hint="Customer Name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </android.support.design.widget.TextInputLayout>
+
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:singleLine="true"
+                                android:maxLength="10"
+                                android:inputType="number"
+                                android:id="@+id/mobilenumber"
+                                android:hint="Mobile Number"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </android.support.design.widget.TextInputLayout>
+
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_marginTop="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:singleLine="true"
+                                android:id="@+id/email"
+                                android:inputType="textEmailAddress"
+                                android:hint="Email Address"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </android.support.design.widget.TextInputLayout>
+
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_marginTop="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:id="@+id/shortaddress"
+                                android:hint="Short Address"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </android.support.design.widget.TextInputLayout>
+
+
+
+                        <TextView
+                            android:textColor="@color/textcolor"
+                            android:text="Discount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_marginTop="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:singleLine="true"
+                                android:id="@+id/discount"
+                                android:text="0"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <RelativeLayout
+                            android:layout_marginTop="30dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/backdash"
+                                android:text="go back"
+                                android:layout_marginLeft="20dp"
+                                android:textColor="@color/white"
+                                android:background="@drawable/quotationformbtn"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+
+                            <Button
+                                android:id="@+id/submit"
+                                android:text="Submit"
+                                android:textColor="@color/white"
+                                android:layout_marginLeft="130dp"
+                                android:layout_toRightOf="@id/backdash"
+                                android:layout_gravity="center"
+                                android:background="@drawable/quotationformbtn"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                  </ScrollView>
+            </LinearLayout>
+
+</LinearLayout>

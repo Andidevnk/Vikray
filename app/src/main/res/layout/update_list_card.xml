@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="15sp"
+            android:textColor="@color/tablayout1"
+            android:text="Location From"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/updatelocationfrom"
+            android:textColor="@color/tablayout"
+            android:layout_marginTop="10dp"
+            android:text="Location From"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="15sp"
+            android:textColor="@color/tablayout1"
+            android:layout_marginTop="10dp"
+            android:text="Location To"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/updatelocationto"
+            android:textColor="@color/tablayout"
+            android:layout_marginTop="10dp"
+            android:text="Location To"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:textSize="15sp"
+            android:textColor="@color/tablayout1"
+            android:layout_marginTop="10dp"
+            android:text="Send From"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/updatefrom"
+            android:textColor="@color/tablayout"
+            android:layout_marginTop="10dp"
+            android:text="Send From"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:textColor="@color/tablayout1"
+            android:layout_marginTop="10dp"
+            android:text="Send To"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/updateto"
+            android:textColor="@color/tablayout"
+            android:layout_marginTop="10dp"
+            android:text="Send To"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:textColor="@color/tablayout1"
+            android:layout_marginTop="10dp"
+            android:text="Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/updatedate"
+            android:textColor="@color/tablayout"
+            android:layout_marginTop="10dp"
+            android:text="Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="15sp"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:textColor="@color/tablayout1"
+            android:layout_weight="1"
+            android:text="Model Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/tablayout1"
+            android:layout_weight="1.1"
+            android:text="Model Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:textColor="@color/tablayout1"
+            android:layout_weight="1"
+            android:text="Model Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="5"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/idss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/tablayout"
+            android:layout_gravity="center"
+            android:id="@+id/updatemodel"
+            android:text="Model"
+            android:layout_weight="1.1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:textColor="@color/tablayout"
+            android:layout_gravity="center"
+            android:id="@+id/updateframe"
+            android:text="Frame No."
+            android:layout_weight="1.2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:textColor="@color/tablayout"
+            android:layout_gravity="center"
+            android:id="@+id/updateengine"
+            android:text="Engine No."
+            android:layout_weight="1.2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <CheckBox
+            android:layout_gravity="center"
+            android:id="@+id/checkupdate"
+            android:layout_weight="1.5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#000000" />
+
+</LinearLayout>

@@ -1,0 +1,420 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Fragments.Customer_Fragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@color/txtcolors"
+        android:text="Customer Information"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff" />
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="@color/textcolor"
+            android:text="Pronounced"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <Spinner
+            android:id="@+id/pronouncedname"
+            android:entries="@array/Sirname"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </Spinner>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:singleLine="true"
+            android:id="@+id/customernames"
+            android:hint="Customer Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:singleLine="true"
+            android:id="@+id/customermobilenumber"
+            android:inputType="number"
+            android:hint="Mobile No."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:singleLine="true"
+            android:id="@+id/customeremail"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/customeraddress"
+            android:gravity="left|start"
+            android:maxLines="5"
+            android:lines="4"
+            android:hint="Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:singleLine="true"
+            android:id="@+id/customercity"
+            android:hint="City"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:singleLine="true"
+            android:id="@+id/customerpincode"
+            android:inputType="number"
+            android:hint="Pincode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+        <LinearLayout
+            android:padding="5dp"
+            android:id="@+id/layout11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp">
+                <EditText
+                    android:focusableInTouchMode="false"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Date"
+                    android:id="@+id/dateofbirth"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"
+                    android:textSize="15dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:background="@color/reportscardview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/datebtn"
+                android:layout_marginTop="7dp"
+                android:text="Select D.O.B"/>
+        </LinearLayout>
+
+
+
+        <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:singleLine="true"
+            android:id="@+id/customerage"
+            android:hint="Age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:inputType="number"
+            android:singleLine="true"
+            android:id="@+id/customerphonenumber"
+            android:hint="Ph.No.Office/Residence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:text="Purchase Details"
+        android:textColor="@color/txtcolors"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff" />
+
+
+    <Spinner
+        android:id="@+id/modelprefixspinner"
+        android:entries="@array/modelspinner"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/modelvarientspinner"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
+
+    <Spinner
+        android:id="@+id/modelcolorsspinner"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/paymenttypesopinner"
+        android:entries="@array/cashfinance"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:text="Amount Details"
+        android:textColor="@color/txtcolors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:focusableInTouchMode="false"
+            android:id="@+id/exshowroomrate"
+            android:hint="Ex.Showroom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:focusableInTouchMode="false"
+            android:id="@+id/com_insurance_rate"
+            android:hint="Comprehensive Insurance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:focusableInTouchMode="false"
+            android:id="@+id/road_tax_price"
+            android:hint="Road Tax./ Reg. Amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:focusableInTouchMode="false"
+            android:id="@+id/on_raod_cost"
+            android:hint="On Road Cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:focusableInTouchMode="false"
+            android:id="@+id/ew_rsa_price"
+            android:hint="EW AND RSA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/txtcolors"
+        android:text="Total Amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:focusableInTouchMode="false"
+            android:id="@+id/totalprice"
+            android:hint="Total Amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+        <RelativeLayout
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                android:id="@+id/backdash"
+                android:text="go back"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/white"
+                app:spinning_bar_color="#FFF"
+                app:spinning_bar_padding="6dp"
+                app:spinning_bar_width="6dp"
+                android:background="@drawable/quotationformbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                android:id="@+id/submit"
+                android:text="Submit"
+                android:textColor="@color/white"
+                android:layout_marginLeft="130dp"
+                android:layout_toRightOf="@id/backdash"
+                android:layout_gravity="center"
+                app:spinning_bar_color="#FFF"
+                app:spinning_bar_padding="6dp"
+                app:spinning_bar_width="6dp"
+                android:background="@drawable/quotationformbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

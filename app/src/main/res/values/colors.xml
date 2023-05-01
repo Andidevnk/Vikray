@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="custmizetoolbar">#4cafc7</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="cardviewcolor">#a9da88</color>
+    <color name="textcolor">#0d0d0d</color>
+    <color name="btncolor">#86deb4</color>
+    <color name="reportscardview">#fc89ac63</color>
+    <color name="white">#fcf9faf7</color>
+    <color name="txtcolors">#fc82d1bc</color>
+    <color name="tablayout">#e91e63</color>
+    <color name="tablayout1">#ff6f00</color>
+</resources>
